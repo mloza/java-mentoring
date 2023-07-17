@@ -24,7 +24,8 @@ public class CalculatorService {
     }
 
     public int subtract(int one, int two) {
-        return adder.add(one, two);
+        return subtractor.subtract(one, two); 
+//        		adder.add(one, two);
     }
 
     public int multiply(int one, int two) {
